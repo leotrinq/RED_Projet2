@@ -18,7 +18,6 @@ Ce projet est une application React permettant de générer des messages structu
 ## Utilisation
 
 1. Télécharger le projet
-   Clonez ou téléchargez ce dépôt sur votre machine locale.
 
 2. Aller dans le dossier mon-client-web
 
