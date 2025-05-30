@@ -24,8 +24,8 @@ Ce projet est une application React permettant de générer des messages structu
    cd mon-client-web
    ```
 3. Exécuter les commandes :
-```bash
-npm install
-npm run dev
-```
+    ```bash
+    npm install
+    npm run dev
+    ```
 4. Puis ouvrir http://localhost:5173.
