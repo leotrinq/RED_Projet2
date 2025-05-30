@@ -1,5 +1,7 @@
 # Générateur de message structuré
 
+## Description du projet
+
 Ce projet est une application React permettant de générer des messages structurés au format JSON, selon des règles précises définies dans des schémas JSON. Il couvre différents thèmes (films, jeux vidéo, astronomie).
 
 ## Fonctionnalités
@@ -15,22 +17,15 @@ Ce projet est une application React permettant de générer des messages structu
 
 ## Utilisation
 
-Exécuter les commandes :
+1. Télécharger le projet
+   Clonez ou téléchargez ce dépôt sur votre machine locale.
+
+2. Aller dans le dossier mon-client-web
+
+3. Exécuter les commandes :
 ```bash
 npm install
 npm run dev
 ```
 
-Puis ouvrir http://localhost:5173.
-
-Structure du projet
-.
-├── public/
-│   ├── schema_noyau.json
-│   ├── schema_extension_films.json
-│   ├── schema_extension_jeuxvideos.json
-│   └── schema_extension_astronomie.json
-├── src/
-│   └── App.jsx
-├── package.json
-└── README.md
+4. Puis ouvrir http://localhost:5173.
