@@ -16,8 +16,10 @@ Ce projet est une application React permettant de générer des messages structu
 ## Utilisation
 
 Exécuter les commandes :
+```bash
 npm install
 npm run dev
+```
 
 Puis ouvrir http://localhost:5173.
 
