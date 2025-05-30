@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Extension Jeux-Vidéos",
+  "type": "object",
+  "properties": {
+    "jeu_choisi": { "type": "string", "minLength": 1 },
+    "plateforme": { "type": "string", "minLength": 1 },
+    "temps_jeu_heure": { "type": "integer", "minimum": 0 },
+    "note_sur_10": { "type": "integer", "minimum": 0, "maximum": 10 },
+    "multijoueur": { "type": "boolean" }
+  },
+  "required": ["jeu_choisi", "plateforme", "temps_jeu_heure", "note_sur_10", "multijoueur"]
+}

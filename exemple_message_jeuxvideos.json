@@ -1,0 +1,25 @@
+{
+  "fil": {
+    "id": "fil_002",
+    "titre": "Discussion Jeux-Videos",
+    "participants": ["Leo", "Ali"]
+  },
+  "message": {
+    "id": "msg_002",
+    "expediteur": "Ali",
+    "date": "2025-05-22T15:00:00Z",
+    "texte": "Quel jeu veux-tu essayer ?",
+    "structure": {
+      "type": "choix_multiple",
+      "question": "Choisis un jeu parmi ceux-ci",
+      "options": ["Outer Wilds", "Clair Obscur: Expedition 33", "Cyberpunk 2077"]
+    },
+    "extension_jeuxvideos": {
+      "jeu_choisi": "Outer Wilds",
+      "plateforme": "Steam",
+      "temps_jeu_heure": 40,
+      "note_sur_10": 10,
+      "multijoueur": false
+    }
+  }
+}

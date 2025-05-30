@@ -1,0 +1,29 @@
+{
+  "fil": {
+    "id": "fil_001",
+    "titre": "Soiree cinema",
+    "participants": ["Leo", "Elie"]
+  },
+  "message": {
+    "id": "msg_001",
+    "expediteur": "Leo",
+    "date": "2025-05-22T11:00:00Z",
+    "texte": "Quel film veux-tu voir ?",
+    "structure": {
+      "type": "choix_multiple",
+      "question": "Choisis un film parmi ceux-ci",
+      "options": ["Interstellar", "Tenet", "Inception"]
+    },
+    "extension_films": {
+      "film_choisi": "Interstellar",
+      "genre": "Science-Fiction",
+      "duree_minutes": 169,
+      "note_sur_10": 10,
+      "seance": {
+        "date": "2025-05-30",
+        "heure": "20:30"
+      }
+    }
+  }
+}
+

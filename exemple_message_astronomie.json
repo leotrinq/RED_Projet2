@@ -1,0 +1,24 @@
+{
+  "fil": {
+    "id": "fil_003",
+    "titre": "Discussion Astronomie",
+    "participants": ["Ali", "Elie"]
+  },
+  "message": {
+    "id": "msg_003",
+    "expediteur": "Elie",
+    "date": "2025-05-22T16:00:00Z",
+    "texte": "Regarde cette exoplanete !",
+    "structure": {
+      "type": "texte_libre",
+      "question": "Qu’en penses-tu ?"
+    },
+    "extension_astronomie": {
+      "nom_exoplanete": "Kepler-452b",
+      "distance_annees_lumiere": 1400.5,
+      "decouverte_annee": 2015,
+      "type_etoile_hote": "G2V",
+      "habitable": true
+    }
+  }
+}

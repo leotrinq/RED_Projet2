@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Extension Astronomie",
+  "type": "object",
+  "properties": {
+    "nom_exoplanete": { "type": "string", "minLength": 1 },
+    "distance_annees_lumiere": { "type": "integer", "minimum": 0 },    
+    "decouverte_annee": { "type": "integer", "minimum": 1600 },
+    "type_etoile_hote": { "type": "string", "minLength": 1 },
+    "habitable": { "type": "boolean" }
+  },
+  "required": ["nom_exoplanete", "distance_annees_lumiere", "decouverte_annee", "type_etoile_hote", "habitable"]
+}
