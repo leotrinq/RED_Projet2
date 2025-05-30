@@ -19,12 +19,13 @@ Ce projet est une application React permettant de générer des messages structu
 
 1. Télécharger le projet
 
-2. Aller dans le dossier mon-client-web
-
+2. Aller dans le dossier 'mon-client-web' avec la commande :
+   ```bash
+   cd mon-client-web
+   ```
 3. Exécuter les commandes :
 ```bash
 npm install
 npm run dev
 ```
-
 4. Puis ouvrir http://localhost:5173.
