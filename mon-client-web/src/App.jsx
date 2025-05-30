@@ -176,6 +176,16 @@ export default function App() {
     setJsonOutput(normalized.length === 0 ? { fil, message } : null);
   };
 
+  const downloadJSON = () => {
+    const blob = new Blob([JSON.stringify(jsonOutput, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "message.json";
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
   return (
     <main className="bg-gray-100 min-h-screen p-6 font-sans">
       <div className="max-w-3xl mx-auto">
@@ -216,6 +226,11 @@ export default function App() {
 
         <div className="flex justify-center gap-4 mb-4">
           <button onClick={generateJSON} className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Generate JSON</button>
+          {jsonOutput && (
+            <button onClick={downloadJSON} className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">
+              Download JSON
+            </button>
+          )}
         </div>
 
         {errors.length > 0 && (
